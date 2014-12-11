@@ -1,3 +1,6 @@
+;;;;;;;;;  SICP excersise 1.27
+
+
 (define (report-prime n elapsed-time)
   (display n)
   (display " *** ")
@@ -26,4 +29,9 @@
 (define (fast-prime? n)
   (fast-prime-iter n (- n 1)))
 
+(fast-prime? 561)
 (fast-prime? 1105)
+(fast-prime? 1729)
+(fast-prime? 2465)
+(fast-prime? 2821)
+(fast-prime? 6601)
